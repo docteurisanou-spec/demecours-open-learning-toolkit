@@ -1,0 +1,6 @@
+[
+  {"id":"ml-9-math-001","country":"Mali","grade":"9e année","subject":"Mathématiques","language":"fr","prompt":"Résoudre dans R : 2x + 5 = 17.","choices":["x = 4","x = 5","x = 6","x = 7"],"correct_answer":"x = 6","explanation":"2x = 12, donc x = 6."},
+  {"id":"ml-9-pc-001","country":"Mali","grade":"9e année","subject":"Physique-Chimie","language":"fr","prompt":"Quelle est l'unité SI de l'intensité du courant électrique ?","choices":["Volt","Ampère","Ohm","Watt"],"correct_answer":"Ampère","explanation":"L'intensité se mesure en ampères (A)."},
+  {"id":"ml-def-geo-001","country":"Mali","grade":"DEF","subject":"Géographie","language":"fr","prompt":"Quel fleuve traverse Bamako ?","choices":["Sénégal","Niger","Volta","Gambie"],"correct_answer":"Niger","explanation":"Bamako est traversée par le fleuve Niger."},
+  {"id":"ml-tse-math-001","country":"Mali","grade":"Terminale TSE","subject":"Mathématiques","language":"fr","prompt":"Quelle est la dérivée de f(x) = x² ?","choices":["x","2x","x²","2"],"correct_answer":"2x","explanation":"La règle donne (x²)' = 2x."}
+]
