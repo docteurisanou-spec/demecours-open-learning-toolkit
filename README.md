@@ -26,7 +26,7 @@ Learners in Mali face unequal access to structured revision materials, timely fe
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 Open `http://localhost:8000/docs` for interactive documentation.
@@ -44,8 +44,8 @@ The API, tests, sample data and documentation function without Glide. Glide can 
 
 ## Documentation
 
-- [Architecture and Glide integration](docs/architecture.md)
-- [12-month open-source roadmap](docs/open-source-roadmap.md)
+- [Architecture and Glide integration](architecture.md)
+- [12-month open-source roadmap](open-source-roadmap.md)
 - [Contribution guidelines](CONTRIBUTING.md)
 - [Responsible data and security](SECURITY.md)
 

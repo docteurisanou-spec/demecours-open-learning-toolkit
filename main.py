@@ -7,7 +7,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel, Field
 
-DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "sample_questions.json"
+DATA_FILE = Path(__file__).resolve().parent / "sample_questions.json"
 QUESTIONS = json.loads(DATA_FILE.read_text(encoding="utf-8"))
 QUESTION_INDEX = {item["id"]: item for item in QUESTIONS}
 METRICS = Counter({"quiz_submissions": 0, "answers_submitted": 0, "correct_answers": 0})
